@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .product img{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+
+        }
+        #featured > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+            background-color: black;
+        }
+        #featured > div.row.mx-auto.container > nav > ul > li:nth-child(n):hover>a {
+            background-color:  rgb(95, 204, 177);
+            color: white;
+        }
+        .pagination a{
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+  <!--navigation--> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+    <!--<div class="container-fluid">-->
+    <div class="container">
+        <img src="./img/URBANSEED logo.png" alt="logo" class="img-luid" style="width:60px;height:60px">
+        <a class="navbar-brand" ><b><em>URBANSEED</em></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span ><i id="bar" class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index1.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="earnmoney.html">Earn money</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index1.html#new">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact Us</a>
+          
+          
+      </div>
+    </div>
+</nav>
+
+<section id="featured" class="my-5 py-5">
+    <div class="container mt-5 py-5">
+        <h2 class="font-weight-bold">Our Products</h2>
+        <hr >
+        <p>Here you can check out our new products with fair price on Urbanseed</p>
+    </div>
+    
+    <div class="row mx-auto container">
+        <div id="beans" class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="img/DSC00687.jpg" alt="" style="width: 300px; height: 300px;">
+            <div class="star">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Beans</h5>
+            <h4 class="p-price">Rs 100</h4>
+            <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+         <img class="img-fluid mb-3" src="img/DSC00687.jpg" alt="" style="width: 300px; height: 300px;">
+         <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h5 class="p-name">Beans</h5>
+         <h4 class="p-price">Rs 100</h4>
+         <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+     </div>
+     <div class="product text-center col-lg-3 col-md-4 col-12">
+         <img class="img-fluid mb-3" src="img/DSC00687.jpg" alt="" style="width: 300px; height: 300px;">
+         <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h5 class="p-name">Beans</h5>
+         <h4 class="p-price">Rs 100</h4>
+         <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+     </div>
+     <div class="product text-center col-lg-3 col-md-4 col-12">
+         <img class="img-fluid mb-3" src="img/DSC00687.jpg" alt="" style="width: 300px; height: 300px;">
+         <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+         <h5 class="p-name">Beans</h5>
+         <h4 class="p-price">Rs 100</h4>
+         <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+     </div>
+     <div id="drinks" class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="img/WhatsApp Image 2021-08-14 at 5.52.12 PM (1).jpeg" alt="" style="width: 300px; height: 300px;">
+        <div class="star">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">Beans</h5>
+        <h4 class="p-price">Rs 100</h4>
+        <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+     <img class="img-fluid mb-3" src="img/WhatsApp Image 2021-08-14 at 5.52.12 PM (2).jpeg" alt="" style="width: 300px; height: 300px;">
+     <div class="star">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+     </div>
+     <h5 class="p-name">Beans</h5>
+     <h4 class="p-price">Rs 100</h4>
+     <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+ </div>
+ <div class="product text-center col-lg-3 col-md-4 col-12">
+     <img class="img-fluid mb-3" src="img/WhatsApp Image 2021-08-14 at 5.52.12 PM.jpeg" alt="" style="width: 300px; height: 300px;">
+     <div class="star">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+     </div>
+     <h5 class="p-name">Beans</h5>
+     <h4 class="p-price">Rs 100</h4>
+     <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+ </div>
+ <div class="product text-center col-lg-3 col-md-4 col-12">
+     <img class="img-fluid mb-3" src="img/WhatsApp Image 2021-08-14 at 5.52.13 PM.jpeg" alt="" style="width: 300px; height: 300px;">
+     <div class="star">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+     </div>
+     <h5 class="p-name">Beans</h5>
+     <h4 class="p-price">Rs 100</h4>
+     <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+ </div>
+ <div id="biscuits" class="product text-center col-lg-3 col-md-4 col-12">
+    <img class="img-fluid mb-3" src="img/biscuits.jpg" alt="" style="width: 300px; height: 300px;">
+    <div class="star">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+    </div>
+    <h5 class="p-name">Beans</h5>
+    <h4 class="p-price">Rs 100</h4>
+    <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+ <img class="img-fluid mb-3" src="img/biscuits.jpg" alt="" style="width: 300px; height: 300px;">
+ <div class="star">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+ </div>
+ <h5 class="p-name">Beans</h5>
+ <h4 class="p-price">Rs 100</h4>
+ <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+ <img class="img-fluid mb-3" src="img/biscuits.jpg" alt="" style="width: 300px; height: 300px;">
+ <div class="star">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+ </div>
+ <h5 class="p-name">Beans</h5>
+ <h4 class="p-price">Rs 100</h4>
+ <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+ <img class="img-fluid mb-3" src="img/biscuits.jpg" alt="" style="width: 300px; height: 300px;">
+ <div class="star">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+ </div>
+ <h5 class="p-name">Beans</h5>
+ <h4 class="p-price">Rs 100</h4>
+ <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div id="vegetables" class="product text-center col-lg-3 col-md-4 col-12">
+    <img class="img-fluid mb-3" src="img/vegetables.jpg" alt="" style="width: 300px; height: 300px;">
+    <div class="star">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+    </div>
+    <h5 class="p-name">Beans</h5>
+    <h4 class="p-price">Rs 100</h4>
+    <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+ <img class="img-fluid mb-3" src="img/vegetables.jpg" alt="" style="width: 300px; height: 300px;">
+ <div class="star">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+ </div>
+ <h5 class="p-name">Beans</h5>
+ <h4 class="p-price">Rs 100</h4>
+ <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+ <img class="img-fluid mb-3" src="img/vegetables.jpg" alt="" style="width: 300px; height: 300px;">
+ <div class="star">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+ </div>
+ <h5 class="p-name">Beans</h5>
+ <h4 class="p-price">Rs 100</h4>
+ <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+ <img class="img-fluid mb-3" src="img/vegetables.jpg" alt="" style="width: 300px; height: 300px;">
+ <div class="star">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+ </div>
+ <h5 class="p-name">Beans</h5>
+ <h4 class="p-price">Rs 100</h4>
+ <a href="https://play.google.com/store/apps/details?id=com.mondkars.saatwik" target="_blank"><button class="buy-btn">Buy now</button></a>
+</div>
+
+<nav aria-label="...">
+    <ul class="pagination mt-5">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      </li>
+      <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+      <li class="page-item" >
+        <a class="page-link" href="shop2.html">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="shop2.html">Next</a>
+      </li>
+    </ul>
+  </nav>
+    </div>
+</section>
+<div id="footer">
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <img src="./img/URBANSEED logo.png" alt="" style="height: 100px; width: 100px;">
+                <p class="pt-3">Bringing quality at your doorstep<br>Sawantwadi, Sindhudurg<br>info.urbanseed@gmail.com</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="text-uppercase list-unstyled">
+                    <li><a href="shop.html#beans">Beans</a></li>
+                        <li><a href="shop.html#drinks">Drinks</a></li>
+                        <li><a href="shop.html#biscuits">Biscuit</a></li>
+                        <li><a href="shop.html#vegetables">Vegetables</a></li>
+                        <li><a href="shop2.html#meat">Meat</a></li> 
+                </ul>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+            <div>
+                <h6 class="text-uppercase">Adress</h6>
+                <p>Sawantwadi, Sindhudurg</p>
+            </div>
+            <div>
+                <h6 class="text-uppercase">Phone</h6>
+                <p>+91 9403768656</p>
+            </div>
+            <div>
+                <h6 class="text-uppercase">Email</h6>
+                <p>info.urbanseed@gmail.com</p>
+            </div>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+                <div class="row">
+                    <img class="img-fluid w-25 h-100 m-2" src="./Insta/Copy of White and Green Food Delivery Instagram Post (1).png" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="./Insta/WhatsApp Image 2021-08-20 at 12.33.17 PM.jpeg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="./img/2.jpeg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="./img/1.jpeg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="./img/3.jpeg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="./img/URBANSEED logo.png" alt="">
+                
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <img src="./img/payment.png" alt="" style="width: 250px;height: 50px;">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                    <p>Urbanseed © 2021. All rights reserved</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <a href="https://www.facebook.com/Urbanseed-103316105364034" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                   <!-- <a href="#"><i class="fab fa-twitter"></i></a>-->
+                    <a href="https://www.instagram.com/__urbanseed__/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="mailto:info.urbanseed@gmail.com?subject=I%20want%20some%20help%20regarding%20the%20Urbanseed" target="_blank"><i class="far fa-envelope"></i></a>
+                    <!-- <a href="https://web.whatsapp.com/send?phone=9403768656" target="_blank"><i class="fab fa-whatsapp"></i></a>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+</html>
+    
